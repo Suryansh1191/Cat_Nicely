@@ -23,7 +23,7 @@ class BreedFetcher: ObservableObject{
         isLodading = true
         errorMessage = nil
         
-        let service = APIService()
+        let service = APIServiceAlamoFire()
         
         let url = URL(string: "https://api.thecatapi.com/v1/breeds")
         
@@ -41,6 +41,21 @@ class BreedFetcher: ObservableObject{
                 }
             }
         }
+        
+//        service.fetch(type(of: breeds), url: url) { [unowned self] result in
+//            DispatchQueue.main.async {
+//                self.isLodading = false
+//            }
+//            switch result{
+//            case .failure(let error):
+//                self.errorMessage = error.localizedDescription
+//                print(error)
+//            case .success(let breeds):
+//                DispatchQueue.main.async {
+//                    self.breeds = breeds
+//                }
+//            }
+//        }
     }
 //
 //        guard let url = URL(string: "https://api.thecatapi.com/v1/breeds") else{

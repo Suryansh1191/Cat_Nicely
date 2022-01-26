@@ -35,7 +35,6 @@ struct APIService{
                 }catch{
                     print(error)
                     completion(Result.failure(APIError.parsing(error as? DecodingError)))
-                    
                 }
             }
             
