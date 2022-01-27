@@ -27,6 +27,7 @@ class BreedFetcher: ObservableObject{
         
         let url = URL(string: "https://api.thecatapi.com/v1/breeds")
         
+        //using almofire here
         service.fetch(type(of: breeds), url: url) { [unowned self] result in
             DispatchQueue.main.async {
                 self.isLodading = false

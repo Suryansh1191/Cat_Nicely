@@ -29,6 +29,8 @@
 		CF0B19FF49AB31CD4B449CE1 /* Pods_TheCatBreadAPITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0769C4FE5F14960BE9AF10DD /* Pods_TheCatBreadAPITests.framework */; };
 		E4D6E2CD27A1B37E007864A3 /* APIServiceAlamoFIre.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4D6E2CC27A1B37E007864A3 /* APIServiceAlamoFIre.swift */; };
 		E4D6E2D227A1C60F007864A3 /* PostServiceAlamoFire.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4D6E2D127A1C60F007864A3 /* PostServiceAlamoFire.swift */; };
+		E4D6E2D427A2DBD4007864A3 /* PostReqData.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4D6E2D327A2DBD4007864A3 /* PostReqData.swift */; };
+		E4D6E2D627A2DE51007864A3 /* PushFormView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4D6E2D527A2DE51007864A3 /* PushFormView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -80,6 +82,8 @@
 		D878046117C742C420322810 /* Pods-TheCatBreadAPI-TheCatBreadAPIUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TheCatBreadAPI-TheCatBreadAPIUITests.release.xcconfig"; path = "Target Support Files/Pods-TheCatBreadAPI-TheCatBreadAPIUITests/Pods-TheCatBreadAPI-TheCatBreadAPIUITests.release.xcconfig"; sourceTree = "<group>"; };
 		E4D6E2CC27A1B37E007864A3 /* APIServiceAlamoFIre.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIServiceAlamoFIre.swift; sourceTree = "<group>"; };
 		E4D6E2D127A1C60F007864A3 /* PostServiceAlamoFire.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostServiceAlamoFire.swift; sourceTree = "<group>"; };
+		E4D6E2D327A2DBD4007864A3 /* PostReqData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostReqData.swift; sourceTree = "<group>"; };
+		E4D6E2D527A2DE51007864A3 /* PushFormView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PushFormView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -192,6 +196,7 @@
 				6F9F0FDD27995F0E004897AD /* LoadingView.swift */,
 				6F9F0FDF279981B5004897AD /* BreeedRowView.swift */,
 				6F9F0FE1279981D3004897AD /* BreedDetailView.swift */,
+				E4D6E2D527A2DE51007864A3 /* PushFormView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -201,6 +206,7 @@
 			children = (
 				6F9F0F9D279897DF004897AD /* Bread.swift */,
 				6F9F0FE327999503004897AD /* BreedImage.swift */,
+				E4D6E2D327A2DBD4007864A3 /* PostReqData.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -485,6 +491,8 @@
 				6F9F0FDE27995F0E004897AD /* LoadingView.swift in Sources */,
 				6F9F0F712798976B004897AD /* TheCatBreadAPIApp.swift in Sources */,
 				6F9F0FDA27995EEC004897AD /* BreedListView.swift in Sources */,
+				E4D6E2D627A2DE51007864A3 /* PushFormView.swift in Sources */,
+				E4D6E2D427A2DBD4007864A3 /* PostReqData.swift in Sources */,
 				6F9F0FE427999503004897AD /* BreedImage.swift in Sources */,
 				6F9F0FE0279981B5004897AD /* BreeedRowView.swift in Sources */,
 			);

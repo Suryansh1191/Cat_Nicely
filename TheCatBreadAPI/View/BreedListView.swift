@@ -34,6 +34,11 @@ struct BreedListView: View {
             .listStyle(PlainListStyle())
             .navigationTitle("Find Cat Nicely")
             .searchable(text: $searchText)
+            .toolbar{
+                NavigationLink(destination: PushFormView()) {
+                    Text("PUSH DATA")
+                }
+            }
             
         }
         
